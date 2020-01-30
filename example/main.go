@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"i18nTranslator"
+	"github.com/helloooideeeeea/i18nTranslator"
 	"log"
 )
 
