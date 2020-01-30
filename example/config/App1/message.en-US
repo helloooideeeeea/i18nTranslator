@@ -1,0 +1,2 @@
+HELLO=Hey, %s!
+EMAIL_REQUIRED=You need to fill email box.
