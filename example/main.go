@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/helloooideeeeea/i18nTranslator"
+	"i18nTranslator"
 	"log"
 )
 
@@ -13,7 +13,8 @@ func main() {
 		log.Fatal(err)
 	}
 
-	acceptLanguage := "en-US;q=0.9,en;q=0.8,da;q=0.7"
+	// example for Request Header
+	acceptLanguage := "q=0.9,en;q=0.8,da;q=0.7"
 
 	str , _:= i18n.Translate(acceptLanguage,"HELLO")
 
