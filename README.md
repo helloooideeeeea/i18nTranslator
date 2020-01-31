@@ -51,7 +51,7 @@ i18n.PrintDebugLoadedDictionaries() // ↓
 ```
 
 ### rule 1.
-Locale file naming rule is hogehoge.local_identifier".  
+Locale file naming rule is "hogehoge.local_identifier".  
 Examples are "form_err_message.en-US" or "form_err_message.en-us".  
 
 (The file extension can be either lowercase or uppercase, as long as it is a locale identifier.   
