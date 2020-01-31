@@ -21,7 +21,7 @@ Source Code Example.
 ```go
 // exmaple/main.go
 
-i18n, err := i18nTranslator.New("example/config", "en")
+i18n, err := i18nTranslator.New("config", "en")
 if err != nil {
     log.Fatal(err)
 }
