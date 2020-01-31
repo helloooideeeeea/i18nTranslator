@@ -1,4 +1,4 @@
-# i18n Translator
+# i18n Translator for golang.
 ### It helps you translate multiple languages.
 very simple rule.
 
