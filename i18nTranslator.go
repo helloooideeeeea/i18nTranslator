@@ -176,7 +176,6 @@ Outputs the key value loaded in memory for each locale. For debugging.
 メモリにロードしているキーバリューをロケール別に出力します。デバッグ用です。
 */
 func (translator *I18nTranslator) PrintDebugLoadedDictionaries() {
-	fmt.Println("----- DEBUG -----")
 	for lang, dict := range translator.dictionaries {
 		fmt.Printf("----- lang [%s] -----\n", lang)
 		for key, value := range *dict {
