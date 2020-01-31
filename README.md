@@ -58,8 +58,9 @@ Examples are "form_err_message.en-US" or "form_err_message.en-us".
 When loading files, use the same lower case letter.)
 
 ### rule 2.
-The directory containing the locale files must be relative to the project directory.
-Then, the directories under the directory are read recursively, and all files except for files without extension are recognized as locale files.  
+The directory containing the locale files must be relative to the project directory.  
+Then, the directories under the directory are read recursively,   
+and all files except for files without extension are recognized as locale files.  
 Examples are "config/App1/message.en" or "config/App2/error.ja".
 
 ### You can perform test actions
