@@ -62,13 +62,13 @@ The directory containing the locale files must be relative to the project direct
 Then, the directories under the directory are read recursively, and all files except for files without extension are recognized as locale files.  
 Examples are "config/App1/message.en" or "config/App2/error.ja".
 
-###You can perform test actions
-$ git clone https://github.com/helloooideeeeea/i18nTranslator
-$ cd i18nTranslator  
-$ go run example/main.go  
-This library is very small. So,
+### You can perform test actions
+$ git clone https://github.com/helloooideeeeea/i18nTranslator  
+$ cd i18nTranslator   
+$ go run example/main.go   
+This library is very small. So,  
 
-I wrote the specifications as detailed as possible in the source code.  
-I want you to read.  
-$ vim i18nTranslator.go
+I wrote the specifications as detailed as possible in the source code.   
+I want you to read.    
+$ vim i18nTranslator.go   
 
