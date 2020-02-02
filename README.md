@@ -1,5 +1,5 @@
-# i18n Translator for golang.
-### It helps you translate multiple languages.
+# the simplest i18n Translator for golang.
+### It helps you translate multiple languages in a simple way.
 very simple rule.
 
 This library supports Accept-Language of Request Header.
